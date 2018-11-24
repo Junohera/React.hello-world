@@ -10,4 +10,8 @@ class MyName extends Component {
   }
 }
 
+MyName.defaultProps = {
+    name : "최준호"
+}
+
 export default MyName;
